@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Hosting Site</title>
+		<link href = "css/bootstrap.css" rel = "stylesheet">
+		<link href = "css/bootstrap-responsive.css" rel = "stylesheet">
+		<link href = "css/style.css" rel = "stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script>
+		$(function(){
+		  $("#danbtn").click(function(){
+		   alert("The button was clicked.");
+		  });
+		  $("p").click(function(){
+		   alert("The p was clicked.");
+		  });
+		});
+		</script>
+	</head>
+	<body>
+		<div class = "navbar navbar-fixed-top">
+			<div class = "navbar-inner">
+				<div class = "container">
+					<a class = "btn btn-navbar" data-toggle = "collapse" data-target = ".nav-collapse">
+						<i class = "icon-tasks"></i>
+					</a>
+					<a href = "#" class = "brand">Frustration Host</a>
+					<div class = "nav-collapse collapse">
+						<ul class = "nav pull-right">
+							<li class = "active"><a href = "#"><i class="icon-home"></i> Home</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Packages<i class="caret"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href = "#">Shared Hosting</a></li>
+									<li><a href = "#">Dedicated Server</a></li>
+									<li><a href = "#">VPS Hosting</a></li>
+									<li><a href = "#">Email Hosting</a></li>
+								</ul>
+							</li>
+							<li><a href = "#">About</a></li>
+							<li><a href = "#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="hero-unit container">
+			<h2>Hosting that's frustrating, unreliable and unaffordable.</h2>
+			<p>All yours server will be 100% downtime.</br>Yeah you guessed it right 100% downtime.</p>
+			<a class="btn btn-large btn-info" href="#awesomeNess" role="button" data-toggle="modal">View Plans</a>
+		</div>
+		
+		<div id="awesomeNess" class="modal hide fade">
+			<div class="modal-header">
+				<h4>You are awesome</h4>
+			</div>
+			<div class="modal-footer">
+				<button data-dismiss="modal">Awesome you are!</button>
+			</div>
+		</div>
+        
+        <div class="centered">
+  			<button id="danbtn" class="btn btn-danger">Click me</button>
+		</div>
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span3">
+					<h4>Shared Hosting</h4>
+					<p>Shared Hosting Content</p>
+					<a class="btn" href="#pricingShared" role="button" data-toggle="modal">View Plans</a>
+				</div>
+			
+				<div class="span3">
+					<h4>Dedicated Server</h4>
+					<p>Dedicated Server Content</p>
+					<a class="btn">View Plans</a>
+				</div>
+			
+				<div class="span3">
+					<h4>VPS Hosting</h4>
+					<p>VPS Hosting Content</p>
+					<a class="btn">View Plans</a>
+				</div>
+			
+				<div class="span3">
+					<h4>Email Hosting</h4>
+					<p>Email Hosting Content</p>
+					<a class="btn">View Plans</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "navbar navbar-fixed-bottom">
+			<div class = "navbar-inner">
+				<div class = "container footer-margin-top">
+					<p class="muted pull-left">Created by Nitesh Singhal</p>
+					<p class="muted pull-right">Made in India</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="pricingShared" class="modal hide fade">
+			<div class="modal-header">
+				<h3>Shared Hosting</h3>
+			</div>
+			<div class="modal-body">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td>Feature</td>
+							<td>Cheap Plan</td>
+							<td>Rich Plan</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Uptime</td>
+							<td>1%</td>
+							<td>0.2%</td>
+						</tr>
+						<tr>
+							<td>Storage</td>
+							<td>1 Bit</td>
+							<td>12 Bits</td>
+						</tr>
+						<tr>
+							<td>MySQL Databases</td>
+							<td>Half a database</td>
+							<td>1 database</td>
+						</tr>
+						<tr>
+							<td>PHP 5</td>
+							<td>No</td>
+							<td>No</td>
+						</tr>	
+					</tbody>
+				</table>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		
+		
+	
+	</body>
+</html>

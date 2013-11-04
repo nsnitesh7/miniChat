@@ -1,0 +1,36 @@
+.footer-margin-top{
+	margin-top:10px;
+}
+
+.hero-unit{
+	margin-top:20px;
+}
+
+
+.centered
+{
+    text-align:center;
+}
+
+.sizeW
+{
+	 width:400px;
+	 margin-top:10px;
+}
+
+
+form
+{
+margin: 0 auto;
+}
+
+.carousel       {
+            width: 1820;
+            height: 1200;
+
+}
+
+.inner-item {
+    text-align: center;
+    img {
+    margin: 0 auto;}}
